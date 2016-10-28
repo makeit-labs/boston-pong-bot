@@ -1,0 +1,11 @@
+---
+applications:
+- command: foreman start 
+  memory: 1024M
+  instances: 1
+  name: boston-pong-bot
+  domain: cfapps.io
+
+
+
+
