@@ -4,4 +4,5 @@ applications:
   memory: 1024M
   instances: 1
   name: boston-pong-bot
+  buildpack: ruby_buildpack
   domain: cfapps.io
