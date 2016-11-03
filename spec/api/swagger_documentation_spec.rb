@@ -20,11 +20,8 @@ describe Api do
         '/api/seasons/current',
         '/api/seasons/{id}',
         '/api/seasons',
-        '/api/teams/{id}',
-        '/api/teams',
         '/api/games/{id}',
-        '/api/games',
-        '/api/subscriptions'
+        '/api/games'
       ]
     end
   end
