@@ -1,5 +1,6 @@
 Boston Slack Pong Bot
 =============
+[![Build Status](https://travis-ci.org/makeit-labs/boston-pong-bot.svg)](https://travis-ci.org/makeit-labs/boston-pong-bot)
 ## Set Up Your Localhost
 
 `bundle install`
