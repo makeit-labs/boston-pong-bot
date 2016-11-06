@@ -9,7 +9,7 @@ describe SlackGamebot::Commands::Challenge, vcr: { cassette_name: 'user_info' } 
   it 'creates a singles challenge by user id' do
     expect do
       expect(message: "#{SlackRubyBot.config.user} challenge <@#{opponent.user_id}>", user: user.user_id, channel: 'pongbot').to respond_with_slack_message(
-        "#{user.user_name} challenged #{opponent.user_name} to a match!"
+        "#{user.user_name} challenged #{opponent.user_name} to a match! \n #{opponent.user_name}, to accept the challenge, type `pp accept`. \n To decline the challenge, type `pp decline`. \n To cancel this challenge, type `pp cancel`."
       )
     end.to change(Challenge, :count).by(1)
     challenge = Challenge.last
@@ -21,7 +21,7 @@ describe SlackGamebot::Commands::Challenge, vcr: { cassette_name: 'user_info' } 
   it 'creates a singles challenge by user name' do
     expect do
       expect(message: "#{SlackRubyBot.config.user} challenge #{opponent.user_name}", user: user.user_id, channel: 'pongbot').to respond_with_slack_message(
-        "#{user.user_name} challenged #{opponent.user_name} to a match!"
+        "#{user.user_name} challenged #{opponent.user_name} to a match! \n #{opponent.user_name}, to accept the challenge, type `pp accept`. \n To decline the challenge, type `pp decline`. \n To cancel this challenge, type `pp cancel`."
       )
     end.to change(Challenge, :count).by(1)
   end
@@ -30,7 +30,7 @@ describe SlackGamebot::Commands::Challenge, vcr: { cassette_name: 'user_info' } 
     teammate = Fabricate(:user, team: team)
     expect do
       expect(message: "#{SlackRubyBot.config.user} challenge #{opponent.user_name} #{opponent2.user_name} with #{teammate.user_name}", user: user.user_id, channel: 'pongbot').to respond_with_slack_message(
-        "#{user.user_name} and #{teammate.user_name} challenged #{opponent.user_name} and #{opponent2.user_name} to a match!"
+        "#{user.user_name} and #{teammate.user_name} challenged #{opponent.user_name} and #{opponent2.user_name} to a match! \n #{opponent.user_name} and #{opponent2.user_name}, to accept the challenge, type `pp accept`. \n To decline the challenge, type `pp decline`. \n To cancel this challenge, type `pp cancel`."
       )
     end.to change(Challenge, :count).by(1)
     challenge = Challenge.last
