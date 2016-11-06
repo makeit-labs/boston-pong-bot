@@ -13,6 +13,9 @@ If you haven't installed mongodb yet, run:
 Start mongodb
 `mongod --config /usr/local/etc/mongod.conf`
 
+Start the server:
+`SLACK_API_TOKEN=<your API token> foreman start`
+
 ## Run test
 `bundle exec rake spec`
 
