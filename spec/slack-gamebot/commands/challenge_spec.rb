@@ -9,7 +9,7 @@ describe SlackGamebot::Commands::Challenge, vcr: { cassette_name: 'user_info' } 
   it 'creates a singles challenge by user id' do
     expect do
       expect(message: "#{SlackRubyBot.config.user} challenge <@#{opponent.user_id}>", user: user.user_id, channel: 'pongbot').to respond_with_slack_message(
-        "#{user.user_name} challenged #{opponent.user_name} to a match!"
+        "#{user.user_name} challenged #{opponent.user_name} to a match! \n To accept the challenge, type `pp accept`. \n To cancel the challenge, type `pp cancel`. \n To reject the challenge, type `pp reject`."
       )
     end.to change(Challenge, :count).by(1)
     challenge = Challenge.last
@@ -21,7 +21,7 @@ describe SlackGamebot::Commands::Challenge, vcr: { cassette_name: 'user_info' } 
   it 'creates a singles challenge by user name' do
     expect do
       expect(message: "#{SlackRubyBot.config.user} challenge #{opponent.user_name}", user: user.user_id, channel: 'pongbot').to respond_with_slack_message(
-        "#{user.user_name} challenged #{opponent.user_name} to a match!"
+        "#{user.user_name} challenged #{opponent.user_name} to a match! \n To accept the challenge, type `pp accept`. \n To cancel the challenge, type `pp cancel`. \n To reject the challenge, type `pp reject`."
       )
     end.to change(Challenge, :count).by(1)
   end
@@ -30,7 +30,7 @@ describe SlackGamebot::Commands::Challenge, vcr: { cassette_name: 'user_info' } 
     teammate = Fabricate(:user, team: team)
     expect do
       expect(message: "#{SlackRubyBot.config.user} challenge #{opponent.user_name} #{opponent2.user_name} with #{teammate.user_name}", user: user.user_id, channel: 'pongbot').to respond_with_slack_message(
-        "#{user.user_name} and #{teammate.user_name} challenged #{opponent.user_name} and #{opponent2.user_name} to a match!"
+        "#{user.user_name} and #{teammate.user_name} challenged #{opponent.user_name} and #{opponent2.user_name} to a match! \n To accept the challenge, type `pp accept`. \n To cancel the challenge, type `pp cancel`. \n To reject the challenge, type `pp reject`."
       )
     end.to change(Challenge, :count).by(1)
     challenge = Challenge.last
@@ -42,7 +42,8 @@ describe SlackGamebot::Commands::Challenge, vcr: { cassette_name: 'user_info' } 
   it 'creates a singles challenge by user name case-insensitive' do
     expect do
       expect(message: "#{SlackRubyBot.config.user} challenge #{opponent.user_name.capitalize}", user: user.user_id, channel: 'pongbot').to respond_with_slack_message(
-        "#{user.user_name} challenged #{opponent.user_name} to a match!"
+        "#{user.user_name} challenged #{opponent.user_name} to a match! \n To accept the challenge, type `pp accept`. \n To cancel the challenge, type `pp cancel`. \n" +
+        " To reject the challenge, type `pp reject`."
       )
     end.to change(Challenge, :count).by(1)
   end
@@ -71,7 +72,7 @@ describe SlackGamebot::Commands::Challenge, vcr: { cassette_name: 'user_info' } 
       opponent2 = Fabricate(:user)
       expect do
         expect(message: "#{SlackRubyBot.config.user} challenge #{opponent1.slack_mention} #{opponent2.slack_mention}", user: user.user_id, channel: 'pongbot').to respond_with_slack_message(
-          "#{user.user_name} challenged #{opponent1.user_name} and #{opponent2.user_name} to a match!"
+          "#{user.user_name} challenged #{opponent1.user_name} and #{opponent2.user_name} to a match! \n To accept the challenge, type `pp accept`. \n To cancel the challenge, type `pp cancel`. \n To reject the challenge, type `pp reject`."
         )
       end.to change(Challenge, :count).by(1)
       challenge = Challenge.last
