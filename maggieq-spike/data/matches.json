@@ -1,0 +1,1121 @@
+{
+  "_embedded": {
+    "matches": [
+      {
+        "id": "582b7510285800002de453aa",
+        "tied": false,
+        "resigned": false,
+        "created_at": "2016-11-15T20:50:24.369Z",
+        "_links": {
+          "team": {
+            "href": "http://boston-pong-bot.cfapps.io/teams/58129d0a1e93a1002bd34e23"
+          },
+          "challenge": {
+            "href": "http://boston-pong-bot.cfapps.io/challenges/582b5dd8285800002de453a9"
+          },
+          "winners": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/5820e36a3966b5002dd1445a"
+            ]
+          },
+          "losers": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/58129d791e93a1002bd34e25"
+            ]
+          },
+          "self": {
+            "href": "http://boston-pong-bot.cfapps.io/matches/582b7510285800002de453aa"
+          }
+        }
+      },
+      {
+        "id": "582b38eb285800002de453a7",
+        "tied": false,
+        "resigned": false,
+        "created_at": "2016-11-15T16:33:47.415Z",
+        "_links": {
+          "team": {
+            "href": "http://boston-pong-bot.cfapps.io/teams/58129d0a1e93a1002bd34e23"
+          },
+          "challenge": {
+            "href": "http://boston-pong-bot.cfapps.io/challenges/582b3143285800002de453a5"
+          },
+          "winners": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/581356bc1e93a1002bd34e32"
+            ]
+          },
+          "losers": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/58129d791e93a1002bd34e25"
+            ]
+          },
+          "self": {
+            "href": "http://boston-pong-bot.cfapps.io/matches/582b38eb285800002de453a7"
+          }
+        }
+      },
+      {
+        "id": "582b3620285800002de453a6",
+        "tied": false,
+        "resigned": false,
+        "created_at": "2016-11-15T16:21:52.799Z",
+        "_links": {
+          "team": {
+            "href": "http://boston-pong-bot.cfapps.io/teams/58129d0a1e93a1002bd34e23"
+          },
+          "challenge": {
+            "href": "http://boston-pong-bot.cfapps.io/challenges/582a3511285800002de453a4"
+          },
+          "winners": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/58129d551e93a1002bd34e24"
+            ]
+          },
+          "losers": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/58261bc7285800002de45396"
+            ]
+          },
+          "self": {
+            "href": "http://boston-pong-bot.cfapps.io/matches/582b3620285800002de453a6"
+          }
+        }
+      },
+      {
+        "id": "582652f6285800002de453a1",
+        "tied": false,
+        "resigned": false,
+        "created_at": "2016-11-11T23:23:34.035Z",
+        "_links": {
+          "team": {
+            "href": "http://boston-pong-bot.cfapps.io/teams/58129d0a1e93a1002bd34e23"
+          },
+          "challenge": {
+            "href": "http://boston-pong-bot.cfapps.io/challenges/58262aaf285800002de4539b"
+          },
+          "winners": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/5813544b1e93a1002bd34e30"
+            ]
+          },
+          "losers": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/5820e36a3966b5002dd1445a"
+            ]
+          },
+          "self": {
+            "href": "http://boston-pong-bot.cfapps.io/matches/582652f6285800002de453a1"
+          }
+        }
+      },
+      {
+        "id": "58264916285800002de453a0",
+        "tied": false,
+        "resigned": false,
+        "created_at": "2016-11-11T22:41:26.123Z",
+        "_links": {
+          "team": {
+            "href": "http://boston-pong-bot.cfapps.io/teams/58129d0a1e93a1002bd34e23"
+          },
+          "challenge": {
+            "href": "http://boston-pong-bot.cfapps.io/challenges/5826444f285800002de4539f"
+          },
+          "winners": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/58129d791e93a1002bd34e25"
+            ]
+          },
+          "losers": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/581356531e93a1002bd34e31"
+            ]
+          },
+          "self": {
+            "href": "http://boston-pong-bot.cfapps.io/matches/58264916285800002de453a0"
+          }
+        }
+      },
+      {
+        "id": "5826399f285800002de4539e",
+        "tied": false,
+        "resigned": false,
+        "created_at": "2016-11-11T21:35:27.247Z",
+        "_links": {
+          "team": {
+            "href": "http://boston-pong-bot.cfapps.io/teams/58129d0a1e93a1002bd34e23"
+          },
+          "challenge": {
+            "href": "http://boston-pong-bot.cfapps.io/challenges/58261bd2285800002de45397"
+          },
+          "winners": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/58261bc7285800002de45396"
+            ]
+          },
+          "losers": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/5813728f1e93a1002bd34e33"
+            ]
+          },
+          "self": {
+            "href": "http://boston-pong-bot.cfapps.io/matches/5826399f285800002de4539e"
+          }
+        }
+      },
+      {
+        "id": "58261ec5285800002de45399",
+        "tied": false,
+        "resigned": false,
+        "created_at": "2016-11-11T19:40:53.922Z",
+        "_links": {
+          "team": {
+            "href": "http://boston-pong-bot.cfapps.io/teams/58129d0a1e93a1002bd34e23"
+          },
+          "challenge": {
+            "href": "http://boston-pong-bot.cfapps.io/challenges/58260fa9285800002de45393"
+          },
+          "winners": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/5820e36a3966b5002dd1445a"
+            ]
+          },
+          "losers": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/58138c161e93a1002bd34e34"
+            ]
+          },
+          "self": {
+            "href": "http://boston-pong-bot.cfapps.io/matches/58261ec5285800002de45399"
+          }
+        }
+      },
+      {
+        "id": "58261706285800002de45395",
+        "tied": false,
+        "resigned": false,
+        "created_at": "2016-11-11T19:07:50.961Z",
+        "_links": {
+          "team": {
+            "href": "http://boston-pong-bot.cfapps.io/teams/58129d0a1e93a1002bd34e23"
+          },
+          "challenge": {
+            "href": "http://boston-pong-bot.cfapps.io/challenges/5825445e285800002de45392"
+          },
+          "winners": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/58129d791e93a1002bd34e25"
+            ]
+          },
+          "losers": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/58129f051e93a1002bd34e28"
+            ]
+          },
+          "self": {
+            "href": "http://boston-pong-bot.cfapps.io/matches/58261706285800002de45395"
+          }
+        }
+      },
+      {
+        "id": "58250ed8285800002de45391",
+        "tied": false,
+        "resigned": false,
+        "created_at": "2016-11-11T00:20:40.640Z",
+        "_links": {
+          "team": {
+            "href": "http://boston-pong-bot.cfapps.io/teams/58129d0a1e93a1002bd34e23"
+          },
+          "challenge": {
+            "href": "http://boston-pong-bot.cfapps.io/challenges/58250a10285800002de45390"
+          },
+          "winners": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/5813544b1e93a1002bd34e30"
+            ]
+          },
+          "losers": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/58129f051e93a1002bd34e28"
+            ]
+          },
+          "self": {
+            "href": "http://boston-pong-bot.cfapps.io/matches/58250ed8285800002de45391"
+          }
+        }
+      },
+      {
+        "id": "58250392285800002de4538e",
+        "tied": false,
+        "resigned": false,
+        "created_at": "2016-11-10T23:32:34.208Z",
+        "_links": {
+          "team": {
+            "href": "http://boston-pong-bot.cfapps.io/teams/58129d0a1e93a1002bd34e23"
+          },
+          "challenge": {
+            "href": "http://boston-pong-bot.cfapps.io/challenges/5822401e312c540029476216"
+          },
+          "winners": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/58129d791e93a1002bd34e25"
+            ]
+          },
+          "losers": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/58129d8b1e93a1002bd34e27"
+            ]
+          },
+          "self": {
+            "href": "http://boston-pong-bot.cfapps.io/matches/58250392285800002de4538e"
+          }
+        }
+      },
+      {
+        "id": "5824fbc1285800002de4538d",
+        "tied": false,
+        "resigned": false,
+        "created_at": "2016-11-10T22:59:13.200Z",
+        "_links": {
+          "team": {
+            "href": "http://boston-pong-bot.cfapps.io/teams/58129d0a1e93a1002bd34e23"
+          },
+          "challenge": {
+            "href": "http://boston-pong-bot.cfapps.io/challenges/5824f906285800002de4538c"
+          },
+          "winners": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/58138c161e93a1002bd34e34"
+            ]
+          },
+          "losers": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/5820e36a3966b5002dd1445a"
+            ]
+          },
+          "self": {
+            "href": "http://boston-pong-bot.cfapps.io/matches/5824fbc1285800002de4538d"
+          }
+        }
+      },
+      {
+        "id": "5824f8dc285800002de4538b",
+        "tied": false,
+        "resigned": false,
+        "created_at": "2016-11-10T22:46:52.584Z",
+        "_links": {
+          "team": {
+            "href": "http://boston-pong-bot.cfapps.io/teams/58129d0a1e93a1002bd34e23"
+          },
+          "challenge": {
+            "href": "http://boston-pong-bot.cfapps.io/challenges/582343b1285800002de4537f"
+          },
+          "winners": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/5813728f1e93a1002bd34e33"
+            ]
+          },
+          "losers": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/58138c161e93a1002bd34e34"
+            ]
+          },
+          "self": {
+            "href": "http://boston-pong-bot.cfapps.io/matches/5824f8dc285800002de4538b"
+          }
+        }
+      },
+      {
+        "id": "5824dc20285800002de4538a",
+        "tied": false,
+        "resigned": false,
+        "created_at": "2016-11-10T20:44:16.849Z",
+        "_links": {
+          "team": {
+            "href": "http://boston-pong-bot.cfapps.io/teams/58129d0a1e93a1002bd34e23"
+          },
+          "challenge": {
+            "href": "http://boston-pong-bot.cfapps.io/challenges/58249d68285800002de45383"
+          },
+          "winners": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/58129f051e93a1002bd34e28"
+            ]
+          },
+          "losers": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/5820e36a3966b5002dd1445a"
+            ]
+          },
+          "self": {
+            "href": "http://boston-pong-bot.cfapps.io/matches/5824dc20285800002de4538a"
+          }
+        }
+      },
+      {
+        "id": "5824c792285800002de45387",
+        "tied": false,
+        "resigned": false,
+        "created_at": "2016-11-10T19:16:34.174Z",
+        "_links": {
+          "team": {
+            "href": "http://boston-pong-bot.cfapps.io/teams/58129d0a1e93a1002bd34e23"
+          },
+          "challenge": {
+            "href": "http://boston-pong-bot.cfapps.io/challenges/5824c6c9285800002de45386"
+          },
+          "winners": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/5813544b1e93a1002bd34e30"
+            ]
+          },
+          "losers": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/581356531e93a1002bd34e31"
+            ]
+          },
+          "self": {
+            "href": "http://boston-pong-bot.cfapps.io/matches/5824c792285800002de45387"
+          }
+        }
+      },
+      {
+        "id": "5824c6be285800002de45385",
+        "tied": false,
+        "resigned": false,
+        "created_at": "2016-11-10T19:13:02.818Z",
+        "_links": {
+          "team": {
+            "href": "http://boston-pong-bot.cfapps.io/teams/58129d0a1e93a1002bd34e23"
+          },
+          "challenge": {
+            "href": "http://boston-pong-bot.cfapps.io/challenges/582378cd285800002de45380"
+          },
+          "winners": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/5813544b1e93a1002bd34e30"
+            ]
+          },
+          "losers": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/581356531e93a1002bd34e31"
+            ]
+          },
+          "self": {
+            "href": "http://boston-pong-bot.cfapps.io/matches/5824c6be285800002de45385"
+          }
+        }
+      },
+      {
+        "id": "58249b28285800002de45382",
+        "tied": false,
+        "resigned": false,
+        "created_at": "2016-11-10T16:07:04.201Z",
+        "_links": {
+          "team": {
+            "href": "http://boston-pong-bot.cfapps.io/teams/58129d0a1e93a1002bd34e23"
+          },
+          "challenge": {
+            "href": "http://boston-pong-bot.cfapps.io/challenges/5823de39285800002de45381"
+          },
+          "winners": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/58129f051e93a1002bd34e28"
+            ]
+          },
+          "losers": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/58129d551e93a1002bd34e24"
+            ]
+          },
+          "self": {
+            "href": "http://boston-pong-bot.cfapps.io/matches/58249b28285800002de45382"
+          }
+        }
+      },
+      {
+        "id": "5823312e285800002de4537e",
+        "tied": false,
+        "resigned": false,
+        "created_at": "2016-11-09T14:22:38.053Z",
+        "_links": {
+          "team": {
+            "href": "http://boston-pong-bot.cfapps.io/teams/58129d0a1e93a1002bd34e23"
+          },
+          "challenge": {
+            "href": "http://boston-pong-bot.cfapps.io/challenges/5822532c312c540029476219"
+          },
+          "winners": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/58138c161e93a1002bd34e34"
+            ]
+          },
+          "losers": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/58134fc51e93a1002bd34e2e"
+            ]
+          },
+          "self": {
+            "href": "http://boston-pong-bot.cfapps.io/matches/5823312e285800002de4537e"
+          }
+        }
+      },
+      {
+        "id": "58225bb2312c54002947621a",
+        "tied": false,
+        "resigned": false,
+        "created_at": "2016-11-08T23:11:46.480Z",
+        "_links": {
+          "team": {
+            "href": "http://boston-pong-bot.cfapps.io/teams/58129d0a1e93a1002bd34e23"
+          },
+          "challenge": {
+            "href": "http://boston-pong-bot.cfapps.io/challenges/58223e03312c540029476215"
+          },
+          "winners": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/58129f051e93a1002bd34e28"
+            ]
+          },
+          "losers": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/581396271e93a1002bd34e35"
+            ]
+          },
+          "self": {
+            "href": "http://boston-pong-bot.cfapps.io/matches/58225bb2312c54002947621a"
+          }
+        }
+      },
+      {
+        "id": "582252c0312c540029476218",
+        "tied": false,
+        "resigned": false,
+        "created_at": "2016-11-08T22:33:36.487Z",
+        "_links": {
+          "team": {
+            "href": "http://boston-pong-bot.cfapps.io/teams/58129d0a1e93a1002bd34e23"
+          },
+          "challenge": {
+            "href": "http://boston-pong-bot.cfapps.io/challenges/58223b29312c540029476212"
+          },
+          "winners": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/58129d551e93a1002bd34e24"
+            ]
+          },
+          "losers": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/5813544b1e93a1002bd34e30"
+            ]
+          },
+          "self": {
+            "href": "http://boston-pong-bot.cfapps.io/matches/582252c0312c540029476218"
+          }
+        }
+      },
+      {
+        "id": "58223bcf312c540029476213",
+        "tied": false,
+        "resigned": false,
+        "created_at": "2016-11-08T20:55:43.714Z",
+        "_links": {
+          "team": {
+            "href": "http://boston-pong-bot.cfapps.io/teams/58129d0a1e93a1002bd34e23"
+          },
+          "challenge": {
+            "href": "http://boston-pong-bot.cfapps.io/challenges/582239f6312c540029476211"
+          },
+          "winners": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/58138c161e93a1002bd34e34"
+            ]
+          },
+          "losers": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/581356531e93a1002bd34e31"
+            ]
+          },
+          "self": {
+            "href": "http://boston-pong-bot.cfapps.io/matches/58223bcf312c540029476213"
+          }
+        }
+      },
+      {
+        "id": "582239d5312c540029476210",
+        "tied": false,
+        "resigned": false,
+        "created_at": "2016-11-08T20:47:17.830Z",
+        "_links": {
+          "team": {
+            "href": "http://boston-pong-bot.cfapps.io/teams/58129d0a1e93a1002bd34e23"
+          },
+          "challenge": {
+            "href": "http://boston-pong-bot.cfapps.io/challenges/5820eb373966b5002dd1445e"
+          },
+          "winners": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/5813544b1e93a1002bd34e30"
+            ]
+          },
+          "losers": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/58138c161e93a1002bd34e34"
+            ]
+          },
+          "self": {
+            "href": "http://boston-pong-bot.cfapps.io/matches/582239d5312c540029476210"
+          }
+        }
+      },
+      {
+        "id": "582230fd312c54002947620d",
+        "tied": false,
+        "resigned": false,
+        "created_at": "2016-11-08T20:09:33.466Z",
+        "_links": {
+          "team": {
+            "href": "http://boston-pong-bot.cfapps.io/teams/58129d0a1e93a1002bd34e23"
+          },
+          "challenge": {
+            "href": "http://boston-pong-bot.cfapps.io/challenges/582129e53966b5002dd14463"
+          },
+          "winners": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/58129f051e93a1002bd34e28"
+            ]
+          },
+          "losers": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/5813728f1e93a1002bd34e33"
+            ]
+          },
+          "self": {
+            "href": "http://boston-pong-bot.cfapps.io/matches/582230fd312c54002947620d"
+          }
+        }
+      },
+      {
+        "id": "5821f554312c54002947620c",
+        "tied": false,
+        "resigned": false,
+        "created_at": "2016-11-08T15:55:00.937Z",
+        "_links": {
+          "team": {
+            "href": "http://boston-pong-bot.cfapps.io/teams/58129d0a1e93a1002bd34e23"
+          },
+          "challenge": {
+            "href": "http://boston-pong-bot.cfapps.io/challenges/5820e9db3966b5002dd1445c"
+          },
+          "winners": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/58129d791e93a1002bd34e25"
+            ]
+          },
+          "losers": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/581356bc1e93a1002bd34e32"
+            ]
+          },
+          "self": {
+            "href": "http://boston-pong-bot.cfapps.io/matches/5821f554312c54002947620c"
+          }
+        }
+      },
+      {
+        "id": "5820f63e3966b5002dd14460",
+        "tied": false,
+        "resigned": false,
+        "created_at": "2016-11-07T21:46:38.141Z",
+        "_links": {
+          "team": {
+            "href": "http://boston-pong-bot.cfapps.io/teams/58129d0a1e93a1002bd34e23"
+          },
+          "challenge": {
+            "href": "http://boston-pong-bot.cfapps.io/challenges/5820a7cd3966b5002dd14458"
+          },
+          "winners": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/5813728f1e93a1002bd34e33"
+            ]
+          },
+          "losers": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/58129d551e93a1002bd34e24"
+            ]
+          },
+          "self": {
+            "href": "http://boston-pong-bot.cfapps.io/matches/5820f63e3966b5002dd14460"
+          }
+        }
+      },
+      {
+        "id": "5820eb9a3966b5002dd1445f",
+        "tied": false,
+        "resigned": false,
+        "created_at": "2016-11-07T21:01:14.767Z",
+        "_links": {
+          "team": {
+            "href": "http://boston-pong-bot.cfapps.io/teams/58129d0a1e93a1002bd34e23"
+          },
+          "challenge": {
+            "href": "http://boston-pong-bot.cfapps.io/challenges/581cdd7e3966b5002dd14451"
+          },
+          "winners": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/58129f051e93a1002bd34e28"
+            ]
+          },
+          "losers": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/58134fc51e93a1002bd34e2e"
+            ]
+          },
+          "self": {
+            "href": "http://boston-pong-bot.cfapps.io/matches/5820eb9a3966b5002dd1445f"
+          }
+        }
+      },
+      {
+        "id": "5820e97d3966b5002dd1445b",
+        "tied": false,
+        "resigned": false,
+        "created_at": "2016-11-07T20:52:13.072Z",
+        "_links": {
+          "team": {
+            "href": "http://boston-pong-bot.cfapps.io/teams/58129d0a1e93a1002bd34e23"
+          },
+          "challenge": {
+            "href": "http://boston-pong-bot.cfapps.io/challenges/581ceff03966b5002dd14454"
+          },
+          "winners": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/58129d791e93a1002bd34e25"
+            ]
+          },
+          "losers": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/58138c161e93a1002bd34e34"
+            ]
+          },
+          "self": {
+            "href": "http://boston-pong-bot.cfapps.io/matches/5820e97d3966b5002dd1445b"
+          }
+        }
+      },
+      {
+        "id": "581f0fbd3966b5002dd14457",
+        "tied": false,
+        "resigned": false,
+        "created_at": "2016-11-06T11:10:53.344Z",
+        "_links": {
+          "team": {
+            "href": "http://boston-pong-bot.cfapps.io/teams/58129d0a1e93a1002bd34e23"
+          },
+          "challenge": {
+            "href": "http://boston-pong-bot.cfapps.io/challenges/581cfb3e3966b5002dd14455"
+          },
+          "winners": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/5813728f1e93a1002bd34e33"
+            ]
+          },
+          "losers": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/581396271e93a1002bd34e35"
+            ]
+          },
+          "self": {
+            "href": "http://boston-pong-bot.cfapps.io/matches/581f0fbd3966b5002dd14457"
+          }
+        }
+      },
+      {
+        "id": "581cea573966b5002dd14453",
+        "tied": false,
+        "resigned": false,
+        "created_at": "2016-11-04T20:06:47.043Z",
+        "_links": {
+          "team": {
+            "href": "http://boston-pong-bot.cfapps.io/teams/58129d0a1e93a1002bd34e23"
+          },
+          "challenge": {
+            "href": "http://boston-pong-bot.cfapps.io/challenges/581ccf033966b5002dd14450"
+          },
+          "winners": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/58129d791e93a1002bd34e25"
+            ]
+          },
+          "losers": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/58129d551e93a1002bd34e24"
+            ]
+          },
+          "self": {
+            "href": "http://boston-pong-bot.cfapps.io/matches/581cea573966b5002dd14453"
+          }
+        }
+      },
+      {
+        "id": "581ce6453966b5002dd14452",
+        "tied": false,
+        "resigned": false,
+        "created_at": "2016-11-04T19:49:25.904Z",
+        "_links": {
+          "team": {
+            "href": "http://boston-pong-bot.cfapps.io/teams/58129d0a1e93a1002bd34e23"
+          },
+          "challenge": {
+            "href": "http://boston-pong-bot.cfapps.io/challenges/581cca3a3966b5002dd1444f"
+          },
+          "winners": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/58138c161e93a1002bd34e34"
+            ]
+          },
+          "losers": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/581356531e93a1002bd34e31"
+            ]
+          },
+          "self": {
+            "href": "http://boston-pong-bot.cfapps.io/matches/581ce6453966b5002dd14452"
+          }
+        }
+      },
+      {
+        "id": "581cc87a3966b5002dd1444e",
+        "tied": false,
+        "resigned": false,
+        "created_at": "2016-11-04T17:42:18.259Z",
+        "_links": {
+          "team": {
+            "href": "http://boston-pong-bot.cfapps.io/teams/58129d0a1e93a1002bd34e23"
+          },
+          "challenge": {
+            "href": "http://boston-pong-bot.cfapps.io/challenges/581894d51a10c3002b5883f2"
+          },
+          "winners": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/58129d551e93a1002bd34e24"
+            ]
+          },
+          "losers": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/58138c161e93a1002bd34e34"
+            ]
+          },
+          "self": {
+            "href": "http://boston-pong-bot.cfapps.io/matches/581cc87a3966b5002dd1444e"
+          }
+        }
+      },
+      {
+        "id": "581cc7023966b5002dd1444d",
+        "tied": false,
+        "resigned": false,
+        "created_at": "2016-11-04T17:36:02.993Z",
+        "_links": {
+          "team": {
+            "href": "http://boston-pong-bot.cfapps.io/teams/58129d0a1e93a1002bd34e23"
+          },
+          "challenge": {
+            "href": "http://boston-pong-bot.cfapps.io/challenges/581b8c212933de002991dfc6"
+          },
+          "winners": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/581356531e93a1002bd34e31"
+            ]
+          },
+          "losers": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/58134fc51e93a1002bd34e2e"
+            ]
+          },
+          "self": {
+            "href": "http://boston-pong-bot.cfapps.io/matches/581cc7023966b5002dd1444d"
+          }
+        }
+      },
+      {
+        "id": "581b82092933de002991dfc5",
+        "tied": false,
+        "resigned": false,
+        "created_at": "2016-11-03T18:29:29.745Z",
+        "_links": {
+          "team": {
+            "href": "http://boston-pong-bot.cfapps.io/teams/58129d0a1e93a1002bd34e23"
+          },
+          "challenge": {
+            "href": "http://boston-pong-bot.cfapps.io/challenges/581a51c72933de002991dfc2"
+          },
+          "winners": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/58129f051e93a1002bd34e28"
+            ]
+          },
+          "losers": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/5813728f1e93a1002bd34e33"
+            ]
+          },
+          "self": {
+            "href": "http://boston-pong-bot.cfapps.io/matches/581b82092933de002991dfc5"
+          }
+        }
+      },
+      {
+        "id": "581a9feb2933de002991dfc3",
+        "tied": false,
+        "resigned": false,
+        "created_at": "2016-11-03T02:24:43.270Z",
+        "_links": {
+          "team": {
+            "href": "http://boston-pong-bot.cfapps.io/teams/58129d0a1e93a1002bd34e23"
+          },
+          "challenge": {
+            "href": "http://boston-pong-bot.cfapps.io/challenges/5819c6c42933de002991dfc1"
+          },
+          "winners": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/5813544b1e93a1002bd34e30"
+            ]
+          },
+          "losers": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/58134fc51e93a1002bd34e2e"
+            ]
+          },
+          "self": {
+            "href": "http://boston-pong-bot.cfapps.io/matches/581a9feb2933de002991dfc3"
+          }
+        }
+      },
+      {
+        "id": "581904d91a10c3002b5883f8",
+        "tied": false,
+        "resigned": false,
+        "created_at": "2016-11-01T21:10:49.191Z",
+        "_links": {
+          "team": {
+            "href": "http://boston-pong-bot.cfapps.io/teams/58129d0a1e93a1002bd34e23"
+          },
+          "challenge": {
+            "href": "http://boston-pong-bot.cfapps.io/challenges/5813b3571e93a1002bd34e38"
+          },
+          "winners": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/5813544b1e93a1002bd34e30"
+            ]
+          },
+          "losers": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/581356bc1e93a1002bd34e32"
+            ]
+          },
+          "self": {
+            "href": "http://boston-pong-bot.cfapps.io/matches/581904d91a10c3002b5883f8"
+          }
+        }
+      },
+      {
+        "id": "5818f7321a10c3002b5883f7",
+        "tied": false,
+        "resigned": false,
+        "created_at": "2016-11-01T20:12:34.143Z",
+        "_links": {
+          "team": {
+            "href": "http://boston-pong-bot.cfapps.io/teams/58129d0a1e93a1002bd34e23"
+          },
+          "challenge": {
+            "href": "http://boston-pong-bot.cfapps.io/challenges/5818e9411a10c3002b5883f6"
+          },
+          "winners": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/58129d791e93a1002bd34e25"
+            ]
+          },
+          "losers": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/58129f051e93a1002bd34e28"
+            ]
+          },
+          "self": {
+            "href": "http://boston-pong-bot.cfapps.io/matches/5818f7321a10c3002b5883f7"
+          }
+        }
+      },
+      {
+        "id": "5818d2781a10c3002b5883f3",
+        "tied": false,
+        "resigned": false,
+        "created_at": "2016-11-01T17:35:52.103Z",
+        "_links": {
+          "team": {
+            "href": "http://boston-pong-bot.cfapps.io/teams/58129d0a1e93a1002bd34e23"
+          },
+          "challenge": {
+            "href": "http://boston-pong-bot.cfapps.io/challenges/58175d791a10c3002b5883ed"
+          },
+          "winners": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/5813728f1e93a1002bd34e33"
+            ]
+          },
+          "losers": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/58134fc51e93a1002bd34e2e"
+            ]
+          },
+          "self": {
+            "href": "http://boston-pong-bot.cfapps.io/matches/5818d2781a10c3002b5883f3"
+          }
+        }
+      },
+      {
+        "id": "5817ccf41a10c3002b5883f1",
+        "tied": false,
+        "resigned": false,
+        "created_at": "2016-10-31T23:00:04.760Z",
+        "_links": {
+          "team": {
+            "href": "http://boston-pong-bot.cfapps.io/teams/58129d0a1e93a1002bd34e23"
+          },
+          "challenge": {
+            "href": "http://boston-pong-bot.cfapps.io/challenges/5817cce01a10c3002b5883f0"
+          },
+          "winners": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/58138c161e93a1002bd34e34"
+            ]
+          },
+          "losers": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/58129f051e93a1002bd34e28"
+            ]
+          },
+          "self": {
+            "href": "http://boston-pong-bot.cfapps.io/matches/5817ccf41a10c3002b5883f1"
+          }
+        }
+      },
+      {
+        "id": "5817cccf1a10c3002b5883ef",
+        "tied": false,
+        "resigned": false,
+        "created_at": "2016-10-31T22:59:27.620Z",
+        "_links": {
+          "team": {
+            "href": "http://boston-pong-bot.cfapps.io/teams/58129d0a1e93a1002bd34e23"
+          },
+          "challenge": {
+            "href": "http://boston-pong-bot.cfapps.io/challenges/58175c6b1a10c3002b5883ec"
+          },
+          "winners": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/58129d551e93a1002bd34e24"
+            ]
+          },
+          "losers": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/58129f051e93a1002bd34e28"
+            ]
+          },
+          "self": {
+            "href": "http://boston-pong-bot.cfapps.io/matches/5817cccf1a10c3002b5883ef"
+          }
+        }
+      },
+      {
+        "id": "5813cd5b1e93a1002bd34e39",
+        "tied": false,
+        "resigned": false,
+        "created_at": "2016-10-28T22:12:43.390Z",
+        "_links": {
+          "team": {
+            "href": "http://boston-pong-bot.cfapps.io/teams/58129d0a1e93a1002bd34e23"
+          },
+          "challenge": {
+            "href": "http://boston-pong-bot.cfapps.io/challenges/58134b5b1e93a1002bd34e2d"
+          },
+          "winners": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/58129f051e93a1002bd34e28"
+            ]
+          },
+          "losers": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/58134ade1e93a1002bd34e2c"
+            ]
+          },
+          "self": {
+            "href": "http://boston-pong-bot.cfapps.io/matches/5813cd5b1e93a1002bd34e39"
+          }
+        }
+      },
+      {
+        "id": "5813ae581e93a1002bd34e37",
+        "tied": false,
+        "resigned": false,
+        "created_at": "2016-10-28T20:00:24.434Z",
+        "_links": {
+          "team": {
+            "href": "http://boston-pong-bot.cfapps.io/teams/58129d0a1e93a1002bd34e23"
+          },
+          "challenge": {
+            "href": "http://boston-pong-bot.cfapps.io/challenges/5813a86c1e93a1002bd34e36"
+          },
+          "winners": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/581356531e93a1002bd34e31"
+            ]
+          },
+          "losers": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/5813544b1e93a1002bd34e30"
+            ]
+          },
+          "self": {
+            "href": "http://boston-pong-bot.cfapps.io/matches/5813ae581e93a1002bd34e37"
+          }
+        }
+      },
+      {
+        "id": "5812a68b1e93a1002bd34e2b",
+        "tied": false,
+        "resigned": false,
+        "created_at": "2016-10-28T01:14:51.775Z",
+        "_links": {
+          "team": {
+            "href": "http://boston-pong-bot.cfapps.io/teams/58129d0a1e93a1002bd34e23"
+          },
+          "challenge": {
+            "href": "http://boston-pong-bot.cfapps.io/challenges/5812a1ca1e93a1002bd34e2a"
+          },
+          "winners": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/58129f051e93a1002bd34e28"
+            ]
+          },
+          "losers": {
+            "href": [
+              "http://boston-pong-bot.cfapps.io/users/58129d551e93a1002bd34e24"
+            ]
+          },
+          "self": {
+            "href": "http://boston-pong-bot.cfapps.io/matches/5812a68b1e93a1002bd34e2b"
+          }
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "href": "http://boston-pong-bot.cfapps.io/api/matches/?size=100000&team_id=58129d0a1e93a1002bd34e23"
+    },
+    "next": {
+      "href": "http://boston-pong-bot.cfapps.io/api/matches/?cursor=5812a68b1e93a1002bd34e2b%3A5812a68b1e93a1002bd34e2b&size=100000&team_id=58129d0a1e93a1002bd34e23"
+    }
+  }
+}
