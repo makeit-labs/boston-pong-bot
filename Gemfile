@@ -21,6 +21,7 @@ end
 
 group :development do
   gem 'mongoid-shell'
+  gem 'pry'
 end
 
 group :test do

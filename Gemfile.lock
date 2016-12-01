@@ -82,6 +82,7 @@ GEM
       timers (>= 4.1.1)
     childprocess (0.5.9)
       ffi (~> 1.0, >= 1.0.11)
+    coderay (1.1.0)
     coercible (1.0.0)
       descendants_tracker (~> 0.0.1)
     crack (0.4.3)
@@ -160,6 +161,7 @@ GEM
       addressable (~> 2.3)
     loofah (2.0.3)
       nokogiri (>= 1.5.9)
+    method_source (0.8.2)
     mime-types (1.25.1)
     mini_portile2 (2.1.0)
     minitest (5.9.0)
@@ -198,6 +200,10 @@ GEM
       ast (~> 2.2)
     pkg-config (1.1.7)
     powerpack (0.1.1)
+    pry (0.10.1)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
     rack (1.6.4)
     rack-accept (0.4.5)
       rack (>= 0.4)
@@ -269,6 +275,7 @@ GEM
       hashie
       json
       websocket-driver
+    slop (3.6.0)
     stripe (1.43.0)
       rest-client (~> 1.4)
     stripe-ruby-mock (2.3.0)
@@ -319,6 +326,7 @@ DEPENDENCIES
   mongoid-scroll
   mongoid-shell
   newrelic_rpm
+  pry
   rack-robotz
   rack-server-pages
   rack-test
@@ -334,9 +342,6 @@ DEPENDENCIES
   vcr
   wannabe_bool
   webmock
-
-RUBY VERSION
-   ruby 2.3.0p0
 
 BUNDLED WITH
    1.13.5

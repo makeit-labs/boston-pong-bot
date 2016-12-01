@@ -1,6 +1,7 @@
 module Api
   module Endpoints
     class StatusEndpoint < Grape::API
+      prefix :api
       format :json
 
       namespace :status do
