@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-ruby '2.3.0'
+ruby '~> 2.3.0'
 
 gem 'slack-ruby-bot-server', github: 'dblock/slack-ruby-bot-server'
 gem 'ruby-enum'
