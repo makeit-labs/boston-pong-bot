@@ -6,7 +6,9 @@ module Api
       include Grape::Roar::Representer
 
       link :self do |opts|
-        "#{base_url(opts)}/status" # ... TODO or "#{base_url(opts)}/api/status" ?
+        # "#{base_url(opts)}/status" # ... TODO or "#{base_url(opts)}/api/status" ?
+        request = Grape::Request.new(opts[:env])
+        "#{request.url}"
       end
 
       property :games_count
