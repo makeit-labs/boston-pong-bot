@@ -1,18 +1,64 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
-<title>Page Title</title>
+<title>MaggieQ</title>
+<style>
+svg {
+  background: white;
+  border: 1px solid #ddd;
+}
+path.link {
+  fill: none;
+  stroke-width: 1px;
+}
+
+marker#won {
+  fill: #555;
+}
+path.link.won {
+  stroke: #555;
+}
+
+marker#lost {
+  fill: #555;
+}
+path.link.lost {
+  stroke: #555}
+
+marker#pending {
+  fill: #555;
+}
+path.link.pending {
+  stroke-dasharray: 0,2 1;
+  stroke: #555;
+}
+
+circle.halo {
+  fill: #ddd;
+  opacity: 0;
+}
+
+circle.player {
+  fill: #000;
+}
+
+text {
+  font: 10px sans-serif;
+  pointer-events: none;
+}
+
+text.shadow {
+  stroke: #fff;
+  stroke-width: 3px;
+  stroke-opacity: .8;
+}
+</style>
 <body>
-
-  <div id='graph'></div>
-
-  <div class='tooltip'></div>
+  <h1>MaggieQ Analytics Spike</h1>
+  <div id="chart"></div>
 
 
 </body>
 
 <script src="http://d3js.org/d3.v3.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.js"></script>
-
-<script src='d3-jetpack.js'></script>
 
 <script src='script.js'></script>
