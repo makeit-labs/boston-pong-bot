@@ -9,19 +9,19 @@ describe Api do
       JSON.parse(last_response.body)
     end
     it 'documents root level apis' do
-      expect(subject['paths'].keys).to eq [
-        '/api/status',
-        '/api/users/{id}',
-        '/api/users',
-        '/api/challenges/{id}',
+      expect(subject['paths'].keys.sort).to eq [
         '/api/challenges',
-        '/api/matches/{id}',
+        '/api/challenges/{id}',
+        '/api/games',
+        '/api/games/{id}',
         '/api/matches',
+        '/api/matches/{id}',
+        '/api/seasons',
         '/api/seasons/current',
         '/api/seasons/{id}',
-        '/api/seasons',
-        '/api/games/{id}',
-        '/api/games'
+        '/api/status',
+        '/api/users',
+        '/api/users/{id}'
       ]
     end
   end
@@ -32,9 +32,9 @@ describe Api do
       JSON.parse(last_response.body)
     end
     it 'documents users apis' do
-      expect(subject['paths'].keys).to eq [
-        '/api/users/{id}',
-        '/api/users'
+      expect(subject['paths'].keys.sort).to eq [
+        '/api/users',
+        '/api/users/{id}'
       ]
     end
   end

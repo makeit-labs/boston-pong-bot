@@ -3,11 +3,9 @@ module Api
     class StatusEndpoint < Grape::API
       format :json
 
-      namespace :status do
-        desc 'Get system status.'
-        get do
-          present self, with: Api::Presenters::StatusPresenter
-        end
+      desc 'Get system status.'
+      get :status do
+        present self, with: Api::Presenters::StatusPresenter
       end
     end
   end

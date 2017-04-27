@@ -13,6 +13,11 @@ describe Api::Endpoints::StatusEndpoint do
       expect(status.games_count).to eq 0
     end
 
+    it 'has "api" in its self link' do
+      status = client.status
+      expect(status._links.self._url).to include '/api/'
+    end
+
     context 'with a team that is inactive' do
       let!(:team) { Fabricate(:team, api: true, active: false) }
       it 'returns a status' do

@@ -21,6 +21,7 @@ end
 
 group :development do
   gem 'mongoid-shell'
+  gem 'pry'
 end
 
 group :test do
@@ -35,4 +36,6 @@ group :test do
   gem 'excon'
   gem 'capybara'
   gem 'selenium-webdriver'
+  gem 'headless'
+  gem 'capybara-webkit'
 end
