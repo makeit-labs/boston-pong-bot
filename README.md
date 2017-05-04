@@ -17,8 +17,11 @@ Start the server:
 `SLACK_API_TOKEN=<your API token> foreman start`
 
 ## Run test
-`bundle exec rake spec`
 
+```
+$ bundle exec rake spec                 # API test
+$ cd frontend && npm test               # Frontend test
+```
 
 ## API
 
@@ -29,6 +32,11 @@ A team captain must opt-in serving data via the API with `set api on`. The data 
 ![](screenshots/api.png)
 
 We recommend [HyperClient](https://github.com/codegram/hyperclient) to query the API programmatically in Ruby.
+
+## Front End Development
+```
+$ cd frontend && npm run build
+```
 
 ## Contributing
 
